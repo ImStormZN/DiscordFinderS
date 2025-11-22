@@ -1,16 +1,34 @@
-# React + Vite
+📌 Sobre o Projeto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O stDiscordSearchAPI é uma API desenvolvida em Node.js que permite buscar informações públicas de qualquer usuário do Discord utilizando o ID (Snowflake).
+A API retorna dados como:
 
-Currently, two official plugins are available:
+Nome e global name
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Avatar e banner
 
-## React Compiler
+Badges oficiais
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Bio
 
-## Expanding the ESLint configuration
+Data de criação da conta
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Cor de destaque
+
+E muito mais!
+
+Ela é usada pelo projeto stDiscordSearch Front-End.
+
+🚀 Tecnologias utilizadas
+
+Node.js
+
+Express
+
+dotenv
+
+Node-Fetch
+
+CORS
+
+Hospedagem recomendada: Vercel / Render / Railway
