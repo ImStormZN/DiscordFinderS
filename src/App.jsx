@@ -12,7 +12,7 @@ function App() {
     setUserData(null);
 
     try {
-      const res = await fetch(`http://localhost:3000/user/${id}`);
+      const res = await fetch(`https://stdiscordsearchapi.onrender.com/user/${id}`);
       const data = await res.json();
 
       if (data.error) {
