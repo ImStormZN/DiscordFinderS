@@ -145,7 +145,7 @@ export default function Detalhes() {
 
     async function fetchData() {
       try {
-        const res = await fetch(`http://localhost:3000/user/${id}`);
+        const res = await fetch(`https://stdiscordsearchapi.onrender.com/user/${id}`);
         if (!res.ok) {
           const err = await res.json().catch(() => ({}));
           throw new Error(err.error || "Usuário não encontrado");
