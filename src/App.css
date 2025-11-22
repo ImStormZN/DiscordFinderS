@@ -1,0 +1,77 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centro vertical */
+  align-items: center;     /* centro horizontal */
+  text-align: center;
+}
+
+.gif {
+  width: 260px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+.input-area {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  width: 200px;
+  color: black;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #5865F2;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #4752C4;
+}
+
+.help-link {
+  margin-top: 15px;
+  color: #5865F2;
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: underline;
+  transition: 0.2s;
+}
+
+.help-link:hover {
+  color: #4752C4;
+}
+          
+.container h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  white-space: nowrap;          
+  overflow: hidden;             
+  border-right: 3px solid #5865F2; 
+  width: 0;                     
+  animation: typing 3s steps(20) forwards, blink 0.7s infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 18ch; } 
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}

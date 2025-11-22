@@ -1,0 +1,53 @@
+.tutorial-page {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #2b2d31, #313338, #1e1f22);
+    color: white;
+    font-family: Inter, sans-serif;
+  }
+  
+  .tutorial-card {
+    background: rgba(28, 30, 32, 0.8);
+    padding: 40px 50px;
+    border-radius: 14px;
+    text-align: center;
+    max-width: 700px;
+    width: 95%;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255,0.08);
+  }
+  
+  
+  .tutorial-gif {
+    width: 100%;
+    height: auto; /* sem limite */
+  }
+  .tutorial-text {
+    color: #d1d4d8;
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+  
+  .tutorial-btn {
+    padding: 10px 20px;
+    background: #5865F2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.2s;
+  }
+  
+  .tutorial-btn:hover {
+    background: #4752C4;
+  }
+  
+  .tutorial-card h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+  }
